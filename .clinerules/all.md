@@ -31,6 +31,10 @@ This document outlines the coding standards, conventions, and best practices enf
 - Avoid overly verbose comments and JSDocs.
 - Write documentation in GitHub-flavored Markdown.
 - Write in Australian English.
+- Ensure code is modular and concerns are well separated.
+- Modules should be small and focused.
+- Use descriptive names for variables, functions, and components.
+- Use MVC (Model-View-Controller) or similar patterns where applicable.
 
 ### After logic changes:
 
@@ -97,7 +101,6 @@ This document outlines the coding standards, conventions, and best practices enf
 
 - Write clear, concise, and effective unit/integration tests.
 - Aim for good test coverage.
-- When testing in React, use Jest for testing and React Testing Library for components.
 - Use Node.js built-in test libraries when not working in React.
 - Mock external dependencies where necessary.
 - Tests should be independent and repeatable.
